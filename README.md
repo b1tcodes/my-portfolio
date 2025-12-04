@@ -1,4 +1,4 @@
-# [skytheme](https://b1tcodes.github.io/my-portfolio/)
+# <a href="https://b1tcodes.github.io/my-portfolio/" target="_blank">skytheme</a>
 
 Hey! Welcome to a little corner of the internet, made for Hack Club's [personal site YSWS](https://page.hackclub.com) program.
 
