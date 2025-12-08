@@ -15,6 +15,7 @@
   * {
     cursor: default;
   }
+  
   main {
     max-width: 600px;
     margin: 3rem auto;
@@ -82,8 +83,8 @@
 
   #copy-toast {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 4rem;
+    right: 4rem;
     background-color: #000000;
     border: 2px solid #333;
     color: #ffffff;
@@ -98,6 +99,15 @@
   #copy-toast.show {
     opacity: 1;
   }
+
+  @media screen and (max-width: 525px) {
+   .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
 </style>
 </head>
 <body>
@@ -122,7 +132,7 @@
       <p><a href="https://github.com/b1tcodes" target="_blank" rel="noopener noreferrer">github</a></p>
     </div>
 
-    <div id="copy-toast">&#x2713; copied username to clipboard</div>
+    <div id="copy-toast">copied username to clipboard</div>
 
     <p class="footer">
       © copyright sky 2025. all rights reserved.
