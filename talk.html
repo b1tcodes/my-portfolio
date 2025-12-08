@@ -99,14 +99,22 @@
   #copy-toast.show {
     opacity: 1;
   }
+  
+  .dc {
+    background-color: black;
+    color: #c0c0c0;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
 
   @media screen and (max-width: 525px) {
-   .socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
+     .socials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      }
 }
 </style>
 </head>
@@ -128,7 +136,7 @@
 
     <div class="socials">
       <p><a href="mailto:skymarasini44@gmail.com">email</a></p>
-      <p><a onclick="copyText('dcb1t')">discord</a></p>
+      <p><a onclick="copyText('dcb1t')"><button class="dc">discord</button></a></p>
       <p><a href="https://github.com/b1tcodes" target="_blank" rel="noopener noreferrer">github</a></p>
     </div>
 
