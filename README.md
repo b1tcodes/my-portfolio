@@ -27,8 +27,8 @@ This website is a personal website inspired by dark theme minimal design that se
 </table>
 
 ## Features
-- looks cool ;)
+- looks cool ; )
 - Minimal design
 - learned some js to add the message at end page when you click dc
-- 100% mobile compatible
+- 100% mobile compatible.
 
